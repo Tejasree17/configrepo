@@ -1,0 +1,16 @@
+package com.example.demo;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class Controller {
+	
+	@GetMapping("/second")
+	public Student second() {
+	Student student=new Student();
+	student.setName("Teju");
+	student.setRollNo(1);
+		return student;
+	}
+}

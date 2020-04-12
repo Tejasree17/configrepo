@@ -1,0 +1,12 @@
+package com.webapplication.restdemoo;
+
+@RestController
+public class AppController {
+	
+	@RequestMapping(value="/hello")
+    public String text() {
+        return "Hi Teju!";
+    }
+
+
+}

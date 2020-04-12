@@ -1,0 +1,20 @@
+package com.uday;
+
+public class A {
+public int a;
+private int b;
+protected int c;
+int d;
+A a1=new A();
+public void printName() {
+	System.out.println(a);
+	System.out.println(b);
+	System.out.println(c);
+	System.out.println(d);
+}
+
+public static void print() {
+	System.out.println();
+	
+}
+}

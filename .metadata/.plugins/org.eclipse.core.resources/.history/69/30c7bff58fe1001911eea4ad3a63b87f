@@ -1,0 +1,17 @@
+package com.test;
+
+public final class ImmutableDemo {
+
+	final private int a;
+	private final int b;
+	private final String s;
+	
+	ImmutableDemo(int a,int b,String s){
+		this.a=a;
+		this.b=b;
+		this.s=s;
+		
+	}
+	
+	
+}

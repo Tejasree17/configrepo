@@ -1,0 +1,12 @@
+package com.restexampledemo;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class RestDemo {
+
+	public String getName() {
+		return "Hello";
+	}
+	
+}

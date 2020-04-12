@@ -1,0 +1,11 @@
+package com.example.demo;
+
+public class Foo implements Service {
+
+	@Override
+	public String printName() {
+		System.out.println("Inside Foo class");
+		return "Foo";
+		
+	}
+}

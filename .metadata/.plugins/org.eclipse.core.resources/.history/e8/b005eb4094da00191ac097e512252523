@@ -1,0 +1,20 @@
+package com.springrestcontroller;
+
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+@RestController
+public class RestControllerDemo {
+
+    @RequestMapping(value="/hello",method=RequestMethod.GET)
+    public String text() {
+        return "Hi Teju!";
+    }
+    
+    @RequestMapping(value="/world",method=RequestMethod.POST)
+    public String texttwo() {
+        return "Hi world!";
+    }
+
+}

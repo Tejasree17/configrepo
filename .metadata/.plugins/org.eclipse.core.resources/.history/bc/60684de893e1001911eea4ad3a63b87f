@@ -1,0 +1,11 @@
+package com.test;
+
+import java.util.List;
+
+public final class ImmutableDemo1 {
+
+	private final int a;
+	private final List l;
+	private final int[] b;
+	
+}

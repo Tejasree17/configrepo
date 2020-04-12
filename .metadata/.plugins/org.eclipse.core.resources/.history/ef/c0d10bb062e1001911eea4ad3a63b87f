@@ -1,0 +1,20 @@
+package com.ex;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+@RestController
+public class FirstProj {
+
+    @RequestMapping("/hello")
+    public String text() {
+        return "Hi Teju!";
+    }
+    
+    @RequestMapping(value="/world",method=RequestMethod.POST)
+    public String texttwo(Employee e) {
+        return "Hi world!";
+    }
+
+
+}

@@ -1,0 +1,20 @@
+package com.test;
+
+public class SingletonDemo {
+	
+	private SingletonDemo(){
+		
+	}
+
+	public static SingletonDemo singleton() {
+		return null;
+		
+	}
+	
+	public static void main(String[] args) {
+		
+	
+		
+	}
+
+}

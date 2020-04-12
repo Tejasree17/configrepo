@@ -1,0 +1,4 @@
+secondms.url:http://localhost:8086/second
+spring.application.name:eureka
+eureka.client.register-with-eureka=false
+eureka.client.fetch-registry=false

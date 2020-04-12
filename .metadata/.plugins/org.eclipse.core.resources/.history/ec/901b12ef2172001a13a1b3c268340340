@@ -1,0 +1,26 @@
+package com.example.demo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class Controller {
+	
+	@GetMapping("/second")
+	public List<Student> second() {
+	Student student=new Student();
+	student.setName("Teju");
+	student.setRollNo(1);
+	Student s1=new Student();
+	student.setName("Tejasree");
+	student.setRollNo(12);
+	
+	List<Student> studentList = new ArrayList();
+	studentList.add(student);
+	studentList.add(s1);
+		return studentList;
+	}
+}

@@ -1,0 +1,14 @@
+package com.test;
+
+
+public class Test {
+
+	public static void main(String[] args) {
+		ImmutableDemo i=new ImmutableDemo(1,2,"teju");
+		System.out.println(i.getA());
+		System.out.println(i.getB());
+		System.out.println(i.getS());
+		
+	}
+
+}

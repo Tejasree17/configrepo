@@ -1,0 +1,14 @@
+package com.ex;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@RestController
+public class FirstProj {
+
+    @RequestMapping("/Hello")
+    public String text() {
+        return "Hi Teju!";
+    }
+
+
+}

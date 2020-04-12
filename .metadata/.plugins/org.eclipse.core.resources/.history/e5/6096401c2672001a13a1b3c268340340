@@ -1,0 +1,2 @@
+secondms.url:http://localhost:8086/second
+spring.application.name:eureka

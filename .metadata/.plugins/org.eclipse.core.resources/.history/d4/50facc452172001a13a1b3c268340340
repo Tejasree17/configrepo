@@ -1,0 +1,20 @@
+package com.example.demo;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+@Service
+public class FirstmsService {
+
+	@Value("${secondms.url}")
+	private String secondmsUrl;
+	
+	public Integer returnstring() {
+		RestTemplate restTemplate= new RestTemplate();
+		ResponseEntity<Integer> response=restTemplate.getForEntity(secondmsUrl, Integer.class);
+		return response.getBody();
+		
+	}
+}

@@ -1,0 +1,13 @@
+package com.example.demo;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class FirstmsService {
+
+	public String returnstring() {
+		
+		return "First MS";
+		
+	}
+}

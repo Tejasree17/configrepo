@@ -1,0 +1,19 @@
+package com.test;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Test {
+
+	public static void main(String[] args) {
+		List l1=new ArrayList();
+		l1.add("apple");
+		ImmutableDemo i=new ImmutableDemo(1,2,"teju",l1);
+		System.out.println(i.getA());
+		System.out.println(i.getB());
+		System.out.println(i.getS());
+		System.out.println(i.getL());
+		i.getL().add("banana")
+	}
+
+}

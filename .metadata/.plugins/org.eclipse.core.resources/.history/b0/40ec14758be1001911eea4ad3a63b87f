@@ -1,0 +1,11 @@
+package com.test;
+
+import com.uday.A;
+
+public class Test {
+
+	public static void main(String[] args) {
+		new A().printName();
+	}
+
+}

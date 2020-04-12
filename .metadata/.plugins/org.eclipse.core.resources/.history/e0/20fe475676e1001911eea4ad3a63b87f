@@ -1,0 +1,7 @@
+package com.uday;
+
+public class A {
+public int a;
+private int b;
+int d;
+}

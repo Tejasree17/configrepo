@@ -1,0 +1,15 @@
+package com.test;
+
+public class SingletonDemo {
+	
+	private SingletonDemo(){
+		
+	}
+
+	public static void main(String[] args) {
+		
+	
+		
+	}
+
+}
